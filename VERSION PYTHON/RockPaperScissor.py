@@ -95,5 +95,8 @@ def Main():
     print("Invalid Choice")
     Main()
     
-Main()
+if __name__ == '__main__':
+    # Chama a interface gráfica
+    import pythongui
+    pythongui.run_gui()
 #TODO: SEGURANÇA NOS INPUTS
